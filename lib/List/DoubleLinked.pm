@@ -8,7 +8,7 @@
 #
 package List::DoubleLinked;
 BEGIN {
-  $List::DoubleLinked::VERSION = '0.001';
+  $List::DoubleLinked::VERSION = '0.002';
 }
 
 use strict;
@@ -16,7 +16,7 @@ use warnings FATAL => 'all';
 
 use Carp qw/carp/;
 use Scalar::Util 'weaken';
-use namespace::clean;
+use namespace::clean 0.20;
 
 sub new {
 	my ($class, @items) = @_;
@@ -199,7 +199,7 @@ List::DoubleLinked - Double Linked Lists for Perl
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

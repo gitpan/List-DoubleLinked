@@ -23,7 +23,7 @@
          "requires" : {
             "Carp" : 0,
             "Scalar::Util" : 0,
-            "namespace::clean" : 0,
+            "namespace::clean" : "0.20",
             "perl" : "5.006"
          }
       },
@@ -46,7 +46,7 @@
          "web" : "http://github.com/Leont/list-doublelinked"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -201,17 +201,27 @@
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Check",
-            "name" : "Git::Check",
+            "name" : "@Git/Check",
             "version" : "1.103520"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Commit",
-            "name" : "Git::Commit",
+            "name" : "@Git/Commit",
             "version" : "1.103520"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Tag",
-            "name" : "Git::Tag",
+            "name" : "@Git/Tag",
+            "version" : "1.103520"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Git::Push",
+            "name" : "@Git/Push",
+            "version" : "1.103520"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::Git::NextVersion",
+            "name" : "Git::NextVersion",
             "version" : "1.103520"
          },
          {

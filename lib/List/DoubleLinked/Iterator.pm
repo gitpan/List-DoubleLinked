@@ -8,7 +8,7 @@
 #
 package List::DoubleLinked::Iterator;
 BEGIN {
-  $List::DoubleLinked::Iterator::VERSION = '0.001';
+  $List::DoubleLinked::Iterator::VERSION = '0.002';
 }
 
 use strict;
@@ -16,13 +16,13 @@ use warnings FATAL => 'all';
 
 use Carp qw/croak/;
 use Scalar::Util 'weaken';
-use namespace::clean;
+use namespace::clean 0.20;
 
 sub new {
 	my ($class, $list, $node) = @_;
 	my $self = bless [ $node, $list ], $class;
 	weaken $self->[0];
-	Internals::SvREADONLY(@$self, 1);
+	Internals::SvREADONLY(@{$self}, 1);
 	return $self;
 }
 
@@ -86,7 +86,7 @@ List::DoubleLinked::Iterator - Double Linked List Iterators
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 METHODS
 

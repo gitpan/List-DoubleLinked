@@ -25,9 +25,9 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Carp' => '0',
     'Scalar::Util' => '0',
-    'namespace::clean' => '0'
+    'namespace::clean' => '0.20'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '0.002',
   'test' => {
     'TESTS' => 't/*.t'
   }
