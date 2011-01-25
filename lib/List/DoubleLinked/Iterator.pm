@@ -8,7 +8,7 @@
 #
 package List::DoubleLinked::Iterator;
 BEGIN {
-  $List::DoubleLinked::Iterator::VERSION = '0.002';
+  $List::DoubleLinked::Iterator::VERSION = '0.003';
 }
 
 use strict;
@@ -86,7 +86,7 @@ List::DoubleLinked::Iterator - Double Linked List Iterators
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 METHODS
 

@@ -14,16 +14,16 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 c716280e4be40cd2f47cc0140c1305c162e9b85a Changes
+SHA1 b1948643ce2b0b15bd70c734aac415e97804c068 Changes
 SHA1 5ecf683d0174af998b9e210d58e137e1c95448aa LICENSE
 SHA1 5bba3fe7222dbe40af1ecfd6cd994168c09be3c7 MANIFEST
-SHA1 f7aa432110c4eb2f6b7bba45c862e836dff064c9 META.json
-SHA1 09a97d37b32d8d9f58bd986e7f83d75e177d23d6 META.yml
-SHA1 19b8bc6d8f24960209c536be69c400aa9a97cd8a Makefile.PL
-SHA1 9d00896b597a5f6f9e095fe0f027f19563205150 README
-SHA1 629705936eccc2712a56e0d66cfb40ada136d80e dist.ini
-SHA1 7926af7af8090bfd2a52bb9e73a2c347aeaa6a5e lib/List/DoubleLinked.pm
-SHA1 d08ae7bb1ff9b43ca5bd9cae72601eea8f9e5611 lib/List/DoubleLinked/Iterator.pm
+SHA1 c69b0aee6e2f9ebaa35e4b2c3d6dda63a31490d1 META.json
+SHA1 e58dff7c64ba0878cb2be8a008dfe648792cd08b META.yml
+SHA1 802a04e00c21ee9689ee334b36631b37737cd250 Makefile.PL
+SHA1 71ec87a064b106ea3827a23aea94dcd7a4865c9a README
+SHA1 7959ab12d529712dcc1f6b5f2852bb58edda45de dist.ini
+SHA1 be559c6041b983754ca4a1f74808821b6f6cba10 lib/List/DoubleLinked.pm
+SHA1 12efa77aad1adc9945e3b6a4f514287443e3fd59 lib/List/DoubleLinked/Iterator.pm
 SHA1 9297a5d5c3955a9a743e000410620207f970ed8e t/10-basics.t
 SHA1 5de26f34967e704ff072e3ca8e75be8256bb2938 t/release-kwalitee.t
 SHA1 9f26bc1f4d0dd0a6a1636a0fb94d34cb8d1b1ff3 t/release-pod-coverage.t
@@ -31,7 +31,7 @@ SHA1 cac8ad425b700af24353af78baa2dd4f9e7d9ff8 t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAk0zoCoACgkQTd+EWiaICwr8rACdG++k7om4E6+dwAr7+smg7T9u
-VIEAn1aE3ZJVlQmUrmfdtftN39RBR9oC
-=PfdT
+iEYEARECAAYFAk0+4IkACgkQTd+EWiaICwrqzACghrgvZOEy02yZ9VKLx0cW9c0C
+0ygAn07Lx0p9/PmKTzjRkDxygqDW+EVA
+=ukd8
 -----END PGP SIGNATURE-----
